@@ -1,0 +1,110 @@
+body {
+  background-color: #f7e8d9; 
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;   
+  color: #663d15; 
+  font-size: 22px;
+}
+
+p {
+  font-size: 24px;
+}
+
+a {
+  color: #663d15; 
+  transition: color 0.3s ease;
+  border-bottom: solid 1px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #948B82;
+}
+
+
+@font-face {
+    font-family: 'Clandie Rain';
+    src: url('fonts/Clandie-Rain.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.names {
+  font-size: 8em;
+  line-height: 0.5;
+  margin-top: 100px;
+  margin-bottom: 120px;
+  font-family: 'Clandie Rain', cursive;
+  @media only screen and (min-width: 40em) {
+    font-size: 11em;
+  }
+}
+
+.date-table {
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+.date-table td {
+  width: 5em;
+}
+
+.container {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    width: 25%;
+    @media only screen and (min-width: 40em) {
+      width: 20%;
+    }
+}
+
+.time {
+  font-size: 1.3em;  
+  padding-bottom: 1em; 
+}
+
+
+.focus {
+  font-variant: small-caps; 
+  font-size: 1.3em;
+}
+
+.separator {
+  width: 12em;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.details {
+  margin: 0px 0px 20px 2px;
+  padding: 20px 20px 20px 20px;
+  background-color: white;
+  box-shadow: 3px 5px 5px #888888;
+  line-height: 1.5;
+
+  @media only screen and (min-width: 48em) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  @media only screen and (min-width: 62.5em) {
+    max-width: 30em;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
